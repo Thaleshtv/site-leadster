@@ -76,4 +76,8 @@ export const Hr = styled.div`
 export const Img = styled.img`
   margin-bottom: 1.875rem;
   margin-left: -1.65rem;
+
+  @media (max-width: 428px) {
+    display: none;
+  }
 `
