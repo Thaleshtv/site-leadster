@@ -1,4 +1,8 @@
 import { Container } from '@mui/material'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded'
+import InstagramIcon from '@mui/icons-material/Instagram'
+
 import * as Styled from './style'
 
 export default function Footer() {
@@ -40,16 +44,44 @@ export default function Footer() {
             </div>
             <div>
               <h5>Siga a Leadster</h5>
+              <div>
+                <Styled.SocialMedia>
+                  <button>
+                    <LinkedInIcon
+                      sx={{ fontSize: '1.25rem', color: '#848EB0' }}
+                    />
+                  </button>
+                  <button>
+                    <FacebookRoundedIcon
+                      sx={{ fontSize: '1.25rem', color: '#848EB0' }}
+                    />{' '}
+                  </button>
+                  <button>
+                    <InstagramIcon
+                      sx={{ fontSize: '1.25rem', color: '#848EB0' }}
+                    />
+                  </button>
+                </Styled.SocialMedia>
+                <p>
+                  E-mail: <a href=""> contato@leadster.com.br</a>
+                </p>
+                <p>
+                  Telefone: <a href=""> (42) 98828-9851</a>{' '}
+                </p>
+              </div>
             </div>
           </div>
         </Container>
         <Styled.Hr></Styled.Hr>
         <Container maxWidth="lg">
           <div className="copyrigth">
-            <p>Copyright 2015 - 2022 Todos os direitos reservados | Leadster</p>
             <p>
-              Rua Jośe Loureiro, 464 - Centro - Curitiba PR - CEP: 80010-000|
-              Termos de uso
+              Copyright &nbsp; 2015 - 2022 &nbsp;Todos os direitos reservados
+              &nbsp; |&nbsp; Leadster
+            </p>
+            <p>
+              Rua Jośe Loureiro, 464 - Centro - Curitiba PR - CEP: 80010-000
+              &nbsp;| &nbsp; Termos de uso
             </p>
           </div>
         </Container>

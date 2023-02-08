@@ -7,7 +7,7 @@ export const Footer = styled.div`
     flex-direction: column;
     justify-content: center;
     font-size: 0.75rem;
-    color: #ccd8e0;
+    color: #848eb0;
     gap: 0.5rem;
     padding: 2rem 0;
   }
@@ -28,7 +28,7 @@ export const Footer = styled.div`
     }
 
     a {
-      color: #ccd8e0;
+      color: #848eb0;
       font-weight: 400;
       font-size: 0.875rem;
       margin-bottom: 0.75rem;
@@ -38,28 +38,52 @@ export const Footer = styled.div`
         color: var(--blue);
       }
     }
+
+    p {
+      color: var(--black);
+      font-weight: 400;
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+      text-decoration: none;
+    }
   }
 
   .copyrigth {
-    color: var(--black);
+    color: #848eb0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 0.75rem;
     padding: 2rem 0;
+    flex-wrap: wrap;
   }
 
   .linkGroup {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 1rem;
   }
 `
 
 export const Hr = styled.div`
   border: none;
   height: 1px;
-  color: #ccd8e0;
-  background-color: #ccd8e0;
+  color: #848eb0;
+  background-color: #848eb0;
   width: 100%;
+`
+
+export const SocialMedia = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  button {
+    background-color: #f7f8fc;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5rem;
+  }
 `
