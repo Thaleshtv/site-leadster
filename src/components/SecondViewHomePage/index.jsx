@@ -5,6 +5,8 @@ import { Container } from '@mui/material'
 import Modal from '@mui/material/Modal'
 import Box from '@mui/material/Box'
 import Card from '../Card'
+import Pagination from '@mui/material/Pagination'
+import Stack from '@mui/material/Stack'
 
 import * as Styled from './style'
 
@@ -104,6 +106,15 @@ export default function SecondViewHomePage() {
             ))}
           </Styled.ContentCards>
           <Styled.Hr></Styled.Hr>
+          <Stack
+            spacing={2}
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+            mt={3}
+          >
+            <Pagination count={4} color="primary" />
+          </Stack>
         </Container>
       </Styled.SecondView>
       <div>
