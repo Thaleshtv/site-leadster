@@ -69,8 +69,8 @@ export const Footer = styled.div`
 export const Hr = styled.div`
   border: none;
   height: 1px;
-  color: #848eb0;
-  background-color: #848eb0;
+  color: #ccd8e0;
+  background-color: #ccd8e0;
   width: 100%;
 `
 
